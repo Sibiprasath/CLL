@@ -71,8 +71,10 @@ public class CLLdeletion{
         int pos=sc.nextInt();
         list.deletebegin();
         list.display();
+        System.out.println("\n");
         list.deleteend();
         list.display();
+        System.out.println("\n");
         list.position(pos);
         list.display();
     }
